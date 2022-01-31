@@ -101,3 +101,44 @@ Here, we are going to add other elements in pom.xml file such as:
   
 </project>  
 ```
+
+# How to build the maven project or how to package maven project?
+The mvn package command completes the build life cycle of the maven project such as:
+
+- validate
+- compile
+- test
+- package
+- integration-test
+- verify
+- install
+- deploy
+
+# Maven Plugins
+The maven plugins are central part of maven framework, it is used to perform specific goal.
+
+According to Apache Maven, there are 2 types of maven plugins.
+
+- Build Plugins
+- Reporting Plugins
+
+## Build Plugins
+These plugins are executed at the time of build. These plugins should be declared inside the \<build> element.
+
+## Reporting Plugins
+These plugins are executed at the time of site generation. These plugins should be declared inside the \<reporting> element.
+
+## Maven Core Plugins
+A list of maven core plugins are given below:
+
+| Plugin | Description |
+| ------ | ----------- |
+| clean | clean up after build. |
+| compiler | compiles java source code. |
+| deploy | deploys the artifact to the remote repository. |
+| failsafe | runs the JUnit integration tests in an isolated classloader. |
+| install | installs the built artifact into the local repository. |
+| resources | copies the resources to the output directory for including in the JAR. |
+| site | generates a site for the current project. |
+| surefire | runs the JUnit unit tests in an isolated classloader. |
+verifier	verifies the existence of certain conditions. It is useful for integration tests.
