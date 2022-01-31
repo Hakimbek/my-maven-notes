@@ -141,4 +141,4 @@ A list of maven core plugins are given below:
 | resources | copies the resources to the output directory for including in the JAR. |
 | site | generates a site for the current project. |
 | surefire | runs the JUnit unit tests in an isolated classloader. |
-verifier	verifies the existence of certain conditions. It is useful for integration tests.
+| verifier | verifies the existence of certain conditions. It is useful for integration tests. |
