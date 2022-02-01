@@ -45,7 +45,7 @@ Before maven 2, it was named as project.xml file. But, since maven 2 (also in ma
 
 ## Elements of maven pom.xml file
 
-| Element |	Description |
+| Element | Description |
 | ------- | ----------- |
 | project |	It is the root element of pom.xml file. |
 | modelVersion |	It is the sub element of project. It specifies the modelVersion. It should be set to 4.0.0. |
@@ -69,7 +69,8 @@ Before maven 2, it was named as project.xml file. But, since maven 2 (also in ma
 ## Maven pom.xml file with additional elements
 Here, we are going to add other elements in pom.xml file such as:
 
-| Element |	Description |
+| Element | Description |
+| ------- | ----------- | 
 | packaging |	defines packaging type such as jar, war etc. |
 | name |	defines name of the maven project. |
 | url |	defines url of the project. |
